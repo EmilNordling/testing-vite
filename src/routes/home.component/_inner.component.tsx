@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { TestService } from '../../application/test.service';
+import { useService } from 'one-atom';
 
 interface Props {}
 
@@ -18,6 +20,8 @@ const elements = {
 };
 
 export function Inner(_: Props): JSX.Element {
+  useService(TestService);
+
   return (
     <elements.content>
       <elements.aside>cool</elements.aside>

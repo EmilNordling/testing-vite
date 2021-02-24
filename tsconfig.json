@@ -16,8 +16,9 @@
     "noImplicitReturns": true,
     "resolveJsonModule": true,
     "noUnusedParameters": false,
+    "experimentalDecorators": true,
     "noFallthroughCasesInSwitch": true,
 		"allowSyntheticDefaultImports": true,
-		"forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": true,
   },
 }
